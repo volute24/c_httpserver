@@ -23,8 +23,9 @@ int main(int argc,char *argv[])
 	{
 		return 0;
 	}
-	setdaemon(); //è®¾ç½®ä¸ºå®ˆæŠ¤è¿›ç¨‹
+	setdaemon(); //ÉèÖÃÎªÊØ»¤½ø³Ì
 	printf("my http server begin\n");
 	socket_accept(st);
 	close(st);
 }
+
